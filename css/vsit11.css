@@ -1,0 +1,155 @@
+   *{
+	box-sizing: border-box;
+	font-family: dubai;
+	margin: 0px;
+}
+  b
+
+     [class*="col-"]
+    {
+        float: left;
+        width: 100%;
+    } 
+
+
+@media only screen and (min-width: 600px){
+.col-t1 {width: 8.33%;}
+.col-t2 {width: 16.66%;}
+.col-t3 {width: 25%;}
+.col-t4 {width: 33.33%;}
+.col-t5 {width: 41.66%;}
+.col-t6 {width: 50%;}
+.col-t7 {width: 58.33%;}
+.col-t8 {width: 66.66%;}
+.col-t9 {width: 75%;}
+.col-t10 {width: 83.33%;}
+.col-t11 {width: 91.66%;}
+.col-t12 {width: 100%;}
+}
+
+
+@media only screen and (min-width: 768px)
+{.col-d1 {width: 8.33%;}
+.col-d2 {width: 16.66%;}
+.col-d3 {width: 25%;}
+.col-d4 {width: 33.33%;}
+.col-d5 {width: 41.66%;}
+.col-d6 {width: 50%;}
+.col-d7 {width: 58.33%;}
+.col-d8 {width: 66.66%;}
+.col-d9 {width: 75%;}
+.col-d10 {width: 83.33%;}
+.col-d11 {width: 91.66%;}
+.col-d12 {width: 100%;}
+}
+
+.row::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+
+
+/* .container {
+    width: 100%;
+    height: 5520px;
+    border: 2px solid black;
+
+  } */
+
+
+.header {
+    /* width: 500px;
+    margin: 70px 0px 0px 50px; */
+    display: grid;
+    /* grid-template-columns: 300px ;
+    grid-template-rows: 300px ; */
+    grid-gap: 20px;
+    grid-column-gap: 20px; 
+}
+
+
+.coo  {
+    width: 10%; 
+    height: 50%; 
+    float: left; 
+    margin-top: 10px; 
+    margin-left: 50px;
+    display: flex;
+    justify-content: center;
+}
+
+
+.cos {
+    /* width: 8.7%;
+    height: 30%;  */
+    text-align: center;
+    float: right;     
+    margin-top: 30px;
+    margin-right: 10px;
+}
+
+
+.cot {
+    color: rgba(10, 181, 224, 0.886);
+    font-size: 60px;
+    text-align: center;
+    margin-top: 200px;
+    font-weight: 50px;  
+}
+
+
+.cop {
+    color: white;
+    font-size: 40px;
+    text-align: center;
+    font-weight: 50px;
+    padding: 10px;
+}
+
+
+.coe {
+    color: white;
+    font-size: 30px;
+    text-align: center;
+    font-weight:50px; 
+}
+
+
+
+
+
+
+.flx1 {
+   background-image: url(../images/banner.webp);
+    width: 100%;
+    height: 539px;
+    background-size: cover;
+    background-attachment: fixed;
+  
+
+}
+
+.flx2 {
+   width: 100%;
+   height: 85px;
+   background-color: rgb(66, 205, 227);
+   position: fixed;
+
+}
+
+
+.flx3 {
+    background-color: blue;
+
+    width: 20%;
+    height: 400px;
+}
+
+
+.flx4 {
+    background-color: blue;
+}
+
+
+

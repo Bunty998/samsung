@@ -1,0 +1,416 @@
+/* <style> */
+/* @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap'); */
+/* </style> */
+
+/* *{ */
+    /* margin:0; */
+     /* font-family: a1; */
+/* } */
+
+/* @font-face { */
+    /* font-family: a1; */
+    /* src: url(../Roboto/Roboto-BoldItalic.ttf); */
+/* } */
+
+
+.navl{
+    width: 100%;
+    height: 5200px;
+   
+    border: 1px solid black;
+    
+
+
+}
+
+
+
+
+.nav{
+    width: 100%;
+    height: 100px;
+    background-color:blue;
+    border: 5px solid black;
+    margin-top: 10px;
+
+
+}
+
+.nav ul {
+    line-height: none;
+    margin-top: 20px;
+
+}
+.nav ul li {
+    width: 150px;
+    padding: 20px;
+    display: inline;
+    background-color: aqua;
+    margin-left: 10px;
+}
+
+
+.nav ul li a {
+    color: aliceblue;
+    text-decoration: none;
+}
+
+
+.nav ul li:hover{
+    background:black;
+}
+
+
+.ma {
+    width: 80%;
+    height: 190px;
+    border: 2px solid black;
+    margin-top: 20px;
+    background-color: aquamarine;
+    margin: auto;
+    margin-top: 30px;
+}
+
+.pag {
+    width: 180px;
+    height: 70px;
+    background-color: rgba(255, 0, 0, 0);
+    float: left;
+    margin-top: 10px;
+    
+}
+
+
+.pag span {
+   padding: 30px;
+   background-color: red;
+}
+
+
+
+
+.pag span a{
+  color: white;
+  text-decoration: none;
+  padding: 30px;
+  margin-top: 20px;
+  line-height: 60px;
+}
+
+.pag span:hover{
+    background-color: black;
+}
+
+/* #####################################box shaddow ############################# */
+
+
+.shadow {
+    width: 300px;
+    height: 250px;
+    border: 1px solid black;
+    margin: auto;
+    margin-top: 80px;
+    background-color: black;
+    box-shadow: 100px 5px 500px 20px red;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+
+}
+
+
+
+
+
+.bag {
+    width: 100%;
+    height: 1000px;
+    border: 1px solid black;
+    margin-top: 300px;
+    background-color: #f8f0e3;
+}
+
+.bag2 {
+    width: 450px;
+    height: 350px;
+    border: 2px solid black;
+    float: left;
+    margin-left: 130px;
+    box-shadow: 5px 6px 25px 3px gray;
+    margin-top: 20px;
+}
+
+.text {
+    font-size: 35px;
+    text-align: center;
+    margin-top: 50px;
+    text-shadow:2px 4px 4px 2px green ;
+
+}
+
+.bag3 {
+    width: 410px;
+    height: 350px;
+    border: 2px solid black;
+    float: left;
+    margin-left: 30px;
+    box-shadow: 5px 6px 25px 3px gray;
+    margin-top: 60px;
+}
+
+.bag3 img {
+    width: 100%;  
+}
+
+@robot-face
+{
+    font-family :robot-black;
+    
+}
+
+#textshadow
+{
+    text-shadow: 2px 3px 3px  gold;
+    font-family: 'Roboto', sans-serif;
+}
+
+
+
+/* #########################################  text column ############################## */
+
+
+
+.tox {
+    width: 80%;
+    height: 300px;
+    /* border: 2px solid black; */
+    margin-top: 10px;
+    margin: auto;
+    column-count: 4;
+    column-gap: 10px;
+    /* column-rule-style: dashed; */
+    /* column-rule-color: blue; */
+    column-rule-width: 10px;
+    text-align: justify;
+   
+}
+
+.tox h1{
+    column-span: all;
+    text-align: center;
+}
+
+.h2{
+    text-align-last:right ;
+    margin-top: 20px;
+}
+
+
+.h3 {
+
+    /* text-align: center; */
+ /* text-decoration-line: overline; */
+ /* text-decoration-line: line-through; */
+ /* text-decoration-line: underline; */
+ text-decoration-line: overline underline;
+
+  }
+  
+.h4 {
+    /* text-align: left; */
+
+    /* text-align-last: justify; */
+     direction: rtl; 
+     unicode-bidi:bidi-override;
+     text-decoration-line: line-through;
+     text-decoration-color: blue;
+
+  }
+  
+.h5 {
+    text-align: right;
+    text-decoration-line: overline;
+    text-decoration-color: red;
+  }
+
+  .h6{
+    vertical-align:baseline;
+  }
+
+  /* ################################   animation text   #################################### */
+
+.go {
+    width: 50%;
+    height: 500px;
+    
+}
+
+  @keyframes simple
+{
+    from{width: 200px;}
+    to {
+        border-radius: 10%;
+        width: 1335px;
+        background-color:grey;
+        color: indianred;
+    }  
+
+    /* ease=slow ( start,fast,end slow)
+    linear=same (speed from start to end) 
+    ease-in=slow (start and end) 
+    steps(4) */
+}
+
+
+
+.go2 {
+    width: 400px;
+    height: 100px;
+    line-height: 200px;
+    text-align: center;
+     box-shadow: 0px 0px 4px 7px; 
+    animation-name: simple;
+    animation-duration: 9s; 
+    animation-delay: 2s; 
+    animation-iteration-count: infinite; 
+     animation-direction: alternate; 
+     /* animation:simple 2s infinite alternate;  */
+     /* -webkit-animation: 9s;  */
+     /* animation-timing-function: steps(8);  */
+     /* animation-iteration-count: 5;  */
+
+
+}
+
+@keyframes bot {
+    0%   {background-color: red;}
+    25%  {background-color: yellow;}
+    50%  {background-color: blue;}
+    100% {background-color: green;}
+  }
+
+
+  .go3 {
+    width: 400px;
+    height: 400px;
+    line-height: 200px;
+    text-align: center;
+    box-shadow: 0px 0px 4px 7px; 
+    animation-name: bot;
+    animation-duration: 9s;  
+    animation-delay: 2s; 
+    margin-top: 150px;
+    margin-left: 550px;
+    position: relative;
+
+  }
+
+/* .div1 {
+
+  width: 100px;
+  height: 50px;
+  background-color: red;
+  font-weight: bold;
+  position: relative;
+  animation: mymove 5s infinite;
+
+} */
+
+/* .div2 {
+
+    width: 100px;
+    height: 50px;
+    background-color: red;
+    font-weight: bold;
+    position: relative;
+    animation: mymove 5s infinite;
+  
+  } */
+
+
+
+  @keyframes mymove {
+    from {left: 0px;}
+    to {left: 1235px;}
+  }
+
+  .div3 {
+
+    width: 100px;
+    height: 50px;
+    background-color: red;
+    font-weight: bold;
+    position: relative;
+    animation: mymove 5s infinite;
+    animation-timing-function: ease-in;
+    margin-top: 300px;
+    animation-name: mymove;
+  }
+
+  .div4 {
+
+    width: 100px;
+    height: 50px;
+    background-color: red;
+    font-weight: bold;
+    position: relative;
+    animation: mymove 5s infinite;
+    animation-timing-function: ease;
+    margin-top: 50px;
+    animation-name: mymove;
+  }
+
+  .div5 {
+
+    width: 100px;
+    height: 50px;
+    background-color: red;
+    font-weight: bold;
+    position: relative;
+    animation: mymove 5s infinite;
+    animation-timing-function: linear;
+    margin-top: 50px;
+    animation-name: mymove;
+  }
+
+
+  /* ############################## animation start ####################################### */
+  
+  .tox{
+    width: 600px;
+    height: 600px;
+    border: 1px solid black;
+    /* background: blue; */
+    /* color: white; */
+    /* transition-property: width,hight,background; */
+    transition-duration: 3s ,3s;
+    margin-top: 30px;
+    /* transition-property: width,hight,background,3s,3s,3s; */
+    transition: all 8s;
+    transition-timing-function: ease;
+    border-radius: 60%;
+
+  }
+
+  .tox:hover{
+    width: 600px;
+    height: 600px;
+    /* background: green; */
+    /* transform :rotate(90deg); */
+    transfo rm:rotate(18000deg);
+
+
+  }
+
+  #ima2 {
+    border-radius: 50%;
+    margin-left: 130px;
+  }
+
+  /* ######################################  uhuhuhuhu  ############################### */
+   
+
+
+
+
+
+ 

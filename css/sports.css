@@ -1,0 +1,217 @@
+* {
+  margin: 0px;
+}
+
+.container {
+  width: 100%;
+  height: 4000px;
+  border: 1px solid black;
+}
+
+
+.header {
+  width: 100%;
+  height: 140px;
+  background-color: black;
+}
+
+.header ul {
+  list-style: none;
+  margin-top: 2px;
+}
+
+.header ul li {
+  background-color: red;
+  width: 170px;
+  height: 60px;
+  border: 2px solid pink;
+  line-height: 50px;
+  text-align: center;
+  color: orange;
+  font-size: 20px;
+  float: left;
+  position: relative;
+
+}
+
+
+
+.header ul li:hover {
+  background-color: cyan;
+
+}
+
+
+.header ul ul {
+  display: none;
+}
+
+.header ul li:hover>ul {
+  display: block;
+}
+
+
+
+
+.header ul ul ul {
+  position: relative;
+  left: 130px;
+  top: 0px;
+}
+
+
+/* ############################  gird intro  ############################################## */
+
+
+.cont {
+  width: 500px;
+  margin: 70px 0px 0px 50px;
+  display: grid;
+  grid-template-columns: 300px 300px 300px 300px 300px 300px 300px;
+  grid-template-rows: 300px 300px 300px 300px 300px 300px 300px;
+ 
+   
+  grid-gap: 20px;
+  grid-column-gap: 20px;
+  /* border-radius: 5px; */
+
+}
+
+.item1 {
+  /* background-color: aquamarine; */
+  /* grid-column-start: 1; 
+  grid-column-end: 4; */
+  background-color: blueviolet;
+  /* height: 500px;
+  width: 400px; */
+  /* background-image: url(../images/16.webp ); */
+  border-radius: 5px;
+  
+
+}
+
+.item2 {
+  /* background-color: aquamarine; */
+  /* grid-row-end: span2; */
+  background-color: darkred;
+  /* height: 500px;
+  width: 400px; */
+  border-radius: 5px;
+
+
+}
+
+
+.item3 {
+  /* background-color: aquamarine; */
+  background-color: lightgreen;
+  /* height: 500px;
+  width: 400px; */
+  border-radius: 5px;
+
+}
+
+
+.item4 {
+  background-color: rgb(127, 180, 255);
+  /* height: 500px; */
+  border-radius: 5px;
+}
+
+
+.item5 {
+  background-color: rgb(174, 255, 127);
+  /* height: 500px;
+  width: 400px; */
+  border-radius: 5px;
+}
+
+
+.item6 {
+  background-color: rgba(255, 127, 244, 0.607);
+  /* height: 500px;
+  width: 400px; */
+  border-radius: 5px;
+}
+
+.item7 {
+  background-color: rgb(255, 195, 127);
+  /* height: 500px;
+  width: 400px; */
+  border-radius: 5px;
+}
+
+.item8 {
+  background-color: rgba(89, 255, 0, 0.959);
+  /* height: 500px; */
+  /* width: 400px; */
+  border-radius: 5px;
+}
+
+
+.item9 {
+  background-color: rgba(255, 208, 127, 0.539);
+  border-radius: 5px;
+}
+
+
+.item10 {
+  background-color: aquamarine;
+  border-radius: 5px;
+}
+
+
+.item11 {
+  background-color: rgb(29, 70, 47);
+  border-radius: 5px;
+}
+
+
+.item12 {
+  background-color: rgb(92, 172, 52);
+  border-radius: 5px;
+}
+
+
+.item13 {
+  background-color: rgb(86, 90, 73);
+  border-radius: 5px;
+}
+
+.item14 {
+  background-color: rgb(47, 68, 143);
+  border-radius: 5px;
+}
+
+.item15 {
+  background-color: rgb(179, 14, 89);
+  border-radius: 5px;
+}
+
+.item16 {
+  background-color: rgb(22, 4, 64);
+  border-radius: 5px;
+}
+
+.img {
+  width: 100px;
+  height: 100px;
+}
+
+/* ##################################   CSS Responsive   ################################### */
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* /////////// */

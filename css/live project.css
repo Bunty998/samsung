@@ -1,0 +1,101 @@
+*{
+    margin: 0px;
+}
+
+    .font {
+        font-size: 40px;
+        text-align: center;
+        
+        
+    }
+
+    .font1 {
+        font-size: 60px;
+        text-align: left;
+    }
+
+
+    .font2 {
+        font-size: 30px;
+        text-align: left;
+    }
+
+    .banner {
+      background-image:  url(../images/usa7.jpg);
+      background-size: 100%;
+      height: 450px;
+      background-repeat: no-repeat;
+    }
+
+    .img {
+        
+        width: 350px;
+        height: 300px;
+        /* margin: 10px; */
+        margin-top: 30px;
+      
+    }
+
+
+    @media screen and {
+        min-width: 768px;
+        
+    }
+
+.product img {
+    height: 350px;
+    object-fit: cover;
+
+}
+
+@media screen and { max-width: 768px;
+
+    
+}
+.reviewsing{
+    height: 350px;
+}
+
+.job {
+    height: 410px;
+    padding-top: 3rem;
+}
+
+
+#nothing h6 {
+    font-size: 20px;
+}
+
+
+.details {
+    text-align: center;
+   
+}
+
+.reviewsing {
+    height: 200px;
+    background-position: contain;
+
+}
+
+.reviewstext {
+    width: 100%;
+    text-align: left;
+}
+
+.job {
+    height: auto;
+    padding-top: 1rem;
+}
+
+.product img {
+    height: 250px;
+    object-fit: cover;
+}
+
+.post {
+    background-image:  url(../images/live4.webp);
+    background-size: 100%;
+    height: 600px;
+    background-repeat: no-repeat;
+}

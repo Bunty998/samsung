@@ -1,0 +1,33 @@
+
+*{}
+body
+/* home page start */
+  
+       {background-color:red ;white: font: size 20px;text-decoration-underline }
+  h1,h2,h3,p
+  {
+    text-align:center; 
+    background-color:blue;
+    width: 400px;
+    height:100px;
+    }
+img{ width: 400px;height: 500px;border: 20px solid blue;
+  /* 17 aug 2022 */
+}
+
+ .heading {  background-color: rgba(226, 198, 43, 0.621);
+  border: 2px solid rgb(205, 255, 235);}
+  #box{ width:300px;
+  height: 850px;
+  background-color: aqua;
+ 
+  font-size: 90px;
+  }
+ #box img{
+width: ;
+
+
+
+ }
+ /* home page end */
+ 

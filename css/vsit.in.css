@@ -1,0 +1,479 @@
+*{
+    margin: 0;
+    font-family: corbel;
+    box-sizing: border-box;
+    padding: 0px; 
+    
+}
+
+
+
+/* ###################################### container start ########################### */
+
+
+.container {
+    width: 100%; 
+    height: 5520px;
+    border: 1px solid black; 
+}
+  
+
+
+/* ###################################### container end  ############################# */
+
+
+/* ###################################### header start  ############################## */
+
+/* @media screen and (max-width: 992px) { */
+.header {
+    width: 100%;
+    height: 538px;
+    border: 1px solid black;
+    background-image: url(../images/banner.webp);
+    background-size: cover;
+    background-attachment: fixed;
+   
+}
+
+
+
+/* ################  banner image end  ################# */
+
+/* ################  vsit image start  ################# */
+
+.logo {
+    width: 100%;
+    height: 80px;
+    background-color: rgb(66, 205, 227);
+    border: 1px solid blueviolet;
+    position: fixed;
+}
+
+
+
+/* ################  vsit image end  ################# */
+
+/* ################ about text start ################# */
+
+
+.col  {
+    width: 10%; 
+    height: 50%; 
+    float: left;
+    margin-top: 20px; 
+    margin-left: 100px;
+}
+
+
+
+
+.cos {
+    width: 8.7%;
+    height: 30%; 
+    text-align: center;
+    float: right; 
+    margin-top: 30px;
+    margin-right: 20px;
+}
+
+
+.h1 {
+    color: rgba(255, 255, 255, 0.898);
+}
+
+
+/* ################ about text end ######################### */
+
+/* ################  fullstack text start  ################# */
+
+.cot {
+    color: rgba(10, 181, 224, 0.886);
+    font-size: 60px;
+    text-align: center;
+    margin-top: 200px;
+    font-weight: 50px;  
+}
+
+
+.cop {
+    color: white;
+    font-size: 40px;
+    text-align: center;
+    font-weight: 50px;
+    padding: 10px;
+}
+
+
+.coe {
+    color: white;
+    font-size: 30px;
+    text-align: center;
+    font-weight:50px; 
+}
+
+
+/* ################  fullstack text end  ######################### */
+
+/* ###################################### header end  ############################# */
+
+
+/* ######################   COURSES @VSIT start ###################   */
+ .h2 {
+    color: black;
+    font-size:35px ;
+    text-align: center;
+    margin-top: 90px;
+ }
+
+
+.sot {
+    width: 100%;
+    height: 0.7%;
+    margin: auto;
+    margin-top: 40px;
+}
+
+.h3 {
+    width: 180px;
+    height: 100%;
+    float: left;
+    margin-left: 22px;
+    text-align: center;
+    font-size:15px;
+}
+
+ /* ######################   COURSES @VSIT end  ###################   */
+
+ /* ######################  images start ##########################   */
+ .images {
+    width: 100%;
+    height: 17%;
+    /* border: 3px solid violet; */
+    
+ }
+
+
+ .img {
+    width: 293px;
+    height: 213.4px;
+    float: left;
+    margin-left: 33px;
+    margin-top: 20px;
+
+ }
+
+ /* ######################  images end ##############################   */
+
+
+ .sol {
+    width: 100%;
+    height: 540px;
+    margin-top: 40px;
+    background-color: black;
+    /* border:  6px solid blue; */
+ }
+
+
+ .mok {
+    margin-left: 160px;
+    margin-top: 74px;
+ }
+
+ .mos {
+    width: 550px;
+    height: 350px;
+    margin-top: 90px;
+    float: right;
+    background-color: rgb(56, 111, 129);
+    /* border: 3px solid violet; */
+ }
+
+ .cok {
+    color: white;
+    font-size: 20px;
+    text-align: justify;
+    font-weight:50px; 
+    margin-left: 120px;
+    margin-top: 10px;
+    /* border: 3px solid violet; */
+
+}
+
+.h4 {
+    text-align: center;
+    font-size:17px;
+}
+
+.bol {
+    width: 80%;
+    height: 1%;
+    margin: auto;
+    margin-top: 30px;
+}
+/* @media screen and (max-width: 992px) { */
+
+.boss {
+    width: 100%;
+    height: 350px;
+    margin-top: 30px;
+    border: 1px solid rgb(29, 68, 123); 
+    background-image: url(../images/coder-mantra-banner1.jpg);
+}
+
+
+.h5 {
+    width: 80%;
+    height: 200px;
+    margin: auto;
+    border: 1px solid cornflowerblue;
+    margin-top: 70px;
+    background-color: rgb(56, 111, 129) ;
+}
+
+.h6{
+    float: left;
+    font-size: 50px;
+    color: aliceblue;
+    margin-top: 40px;
+    text-align: center;
+    margin-left: 25px;
+}
+
+.text2 {
+   margin-left: 300px;
+   text-align: center;
+   font-size: 30px;
+   float: left;
+}
+
+.aolo {
+    width: 100%;
+    height: 580px;
+    margin-top: 80px;
+    /* border: 2px solid violet; */
+ }
+
+ .bloo {
+    width: 49.8%;
+    height: 100%;
+    float: left;
+ }
+
+
+ .h7 {
+   margin-left: 330px;
+   font-size:15px;
+   margin-top: 50px;
+}
+
+.h8 {
+    width: 200px;
+    height: 210px;
+    float: left;
+    margin-left: 120px;
+   
+}
+
+.h9{
+    width: 340px;
+    height: 210px;
+    float: left;
+}
+
+.row {
+    width: 200px;
+    height: 210;
+}
+
+.text3 {
+    font-size: 20px;
+    text-align: justify;
+    margin-top: 20px;
+
+}
+
+.dot {
+    width: 340px;
+    height: 100%;
+    margin: auto;
+}
+
+.text4 { 
+  margin-left: 190;
+  font-size: 30px;
+  float: left;
+}
+
+
+.hs {
+    width: 100%;
+    height: 350px;
+    margin: auto;
+    border: 1px solid black;
+    margin-top: 70px;
+    background-color: rgb(4, 7, 38) ;
+}
+
+
+.jok {
+    
+        color: rgb(44, 188, 217);
+        font-size: 40px;
+        text-align: center;
+        font-weight: 50px;
+        margin-top: 110px;
+}
+
+
+.hello {
+    color: aliceblue;
+    font-size: 15px;
+    margin-left: 617px;
+    margin-top: 20px;
+}
+
+
+.good {
+    width: 64%;
+    height: 100%;
+    float: left;
+}
+
+.good2 {
+   width: 33%;
+   height: 100%;
+   float: left;
+   margin-left: 20px;
+}
+
+.good3 {
+    width: 90%;
+    height: 55px;
+    margin-left: 85px;
+    margin-top: 25px;
+}
+
+
+.never{
+    font-size: 17px;
+    color: black;
+    text-align: justify;
+}
+
+.never2 {
+    font-size: 22px;
+    color: black;
+    text-align: justify;
+    margin-top: 22px;
+}
+
+
+.win {
+    width: 15%;
+    height: 40px;
+    margin-left: 610px;
+    background-color: rgb(0, 221, 255);
+}
+
+
+.aoll {
+    width: 100%;
+    height: 540px;
+    margin-top: 80px;
+    border: 1px solid black;
+    background-color: black;
+
+ }
+
+
+.test {
+    width: 23%;
+    height: 440px;
+    float: left;
+    margin-left: 80px;
+    margin-top: 90px;
+   
+
+}
+
+.cog {
+    color: white;
+    font-size: 23px;
+    text-align: justify;
+    font-weight: 50px;
+    padding: 10px;
+}
+
+.holl {
+    color: rgb(0, 213, 255);
+    font-size: 17px;
+    text-align: justify;
+    margin-top: 13px;
+}
+
+.cod {
+    color: rgb(0, 213, 255);
+    font-size: 23px;
+    text-align: justify;
+    font-weight: 50px;
+    padding: 10px;
+}
+
+.collbro {
+    margin-left: 80px;
+}
+
+.co {
+    
+    color: white;
+    font-size: 23px;
+    text-align: center;
+    font-weight: 50px;
+    margin-top: 40px;
+    
+}
+
+.fake {
+    width: 50px;
+    height: 50px;
+    color: white;
+    border: 1px solid white;
+    background-color: white;
+    float: left;
+    margin-left: 20px;
+    margin-top: 20px;
+}
+
+.coj {
+    color: white;
+    font-size: 20px;
+    text-align: center;
+    font-weight:50px;  
+    margin-top: 120px;
+}
+
+.hol {
+    color: rgb(0, 213, 255);
+   text-align: center;
+}
+
+
+
+.coq {
+   
+    border: 2px solid black;
+    position: fixed;
+   
+    margin-left: 900px;
+   
+
+    
+}
+
+
+
+
+
+ 
+
+ 
